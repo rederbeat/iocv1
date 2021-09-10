@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@200&display=swap');
+
+
+body{
+    margin: 0%;
+    background-image: linear-gradient(to bottom right, #373250, #284a53);
+    color: white;
+}
+
+.contenido {
+    max-width: 75%;
+    text-align: center;
+    margin: auto;
+    padding: 1%;
+    
+
+}
+
+
+
+textarea {
+    width: 100%;
+    height: 250px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #383838;
+    border-radius: 4px;
+    background-color: #383838;
+    font-size: 20px;
+    resize: none;
+    color: white;
+  }
+
+  h2 {
+    font-family: 'Azeret Mono', monospace;
+    text-align: left;
+  }
+
+  h3 {
+    font-family: 'Azeret Mono', monospace;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+  }
+
+  #selectores {
+    margin-top: 2%;
+    font-family: 'Azeret Mono', monospace;
+    text-align: left;
+}
+
+form{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.container {
+    background-color: rgba(20, 20, 20, 0.76);
+    padding: 2%;
+    border-radius: 1% 1%;
+    box-shadow: 5px 10px 8px 10px rgba(0, 0, 0, 0.103);
+}
+
+#btn1{
+  border: none;
+  color: rgb(255, 255, 255);
+  background-color: #373250;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5%;
+}
+
+#pie {
+    background-color: rgba(0, 0, 0, 0.479);
+    height: 20%;
+    color: white;
+    font-family: 'Azeret Mono', monospace;
+    padding: 2%;
+    text-align: center;
+    line-height : 25px;
+    margin-top: 2%;
+}
